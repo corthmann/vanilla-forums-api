@@ -9,6 +9,7 @@ SimpleCov.start do
                 CodeClimate::TestReporter::Formatter
             ]
   add_group('VanillaForumsAPI', 'lib/vanilla-forums-api')
+  add_group('Faraday', 'lib/faraday')
   add_group('Specs', 'spec')
 end
 

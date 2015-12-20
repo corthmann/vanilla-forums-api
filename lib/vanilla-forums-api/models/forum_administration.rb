@@ -6,7 +6,7 @@ module VanillaForumsAPI
     # Docs: http://docs.vanillaforums.com/api/forum-administration/
 
     def self.find_all
-      post('configuration')
+      get('configuration')
     end
   end
 end
